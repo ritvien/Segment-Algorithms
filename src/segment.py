@@ -209,7 +209,7 @@ def get_ts_segments(segment_method,sequence, create_segment, compute_error, max_
     
     """
     approximate_segments = segment_method(sequence, create_segment, compute_error, max_error)
-    # draw_segments(segments)
+
     ts_segments = []
     for seg in approximate_segments:
         x0 = seg[0]
